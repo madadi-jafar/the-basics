@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    
+    <h1>Welcome to The Livewire Basics</h1>
+    @livewire('counter')
 </body>
 
 </html>
