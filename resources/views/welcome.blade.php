@@ -9,8 +9,9 @@
     @livewireStyles
 </head>
 <body class="bg-gray-100 text-gray-900">
-    <div class="min-h-screen flex items-center justify-center">
-        <h1 class="text-3xl font-bold">Welcome to the Livewire Project</h1>
+
+    <div class="container mx-auto p-4">
+        @livewire('counter')
     </div>
 
     @livewireScripts
