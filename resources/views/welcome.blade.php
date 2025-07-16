@@ -11,7 +11,7 @@
 
 <body>
     <h1>Welcome to The Livewire Basics</h1>
-    @livewire('counter')
+    @livewire('todos')
 </body>
 
 </html>
