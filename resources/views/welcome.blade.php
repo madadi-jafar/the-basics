@@ -11,7 +11,7 @@
 <body class="bg-gray-100 text-gray-900">
 
     <div class="container mx-auto p-4">
-        @livewire('counter')
+        @livewire('todo')
     </div>
 
     @livewireScripts
