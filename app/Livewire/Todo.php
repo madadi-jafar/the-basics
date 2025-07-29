@@ -8,11 +8,23 @@ class Todo extends Component
 {
     public $todo = "";
 
-    public $todos = [
-        'Todo 1',
-        'Todo 2',
-        'Todo 3',
-    ];
+    public $todos = [];
+
+
+    public function mount()
+    {
+        $this->todos = [
+            'Todo 1',
+            'Todo 2',
+            'Todo 3',
+        ];
+    }
+
+    public function updatingTodo()
+    {
+        // 
+    }
+
 
     public function addTodo()
     {
