@@ -15,11 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('title'); // Column for post title
             $table->text('content'); // Column for post content
-            $table->string('slug')->unique(); // Column for post slug
-            $table->boolean('is_published')->default(false); // Column for post publication status
-            $table->timestamp('published_at')->nullable(); // Column for post publication date
-            $table->foreignId('user_id')->constrained()->onDelete('cascade'); // Foreign key for user who created the post
-            $table->foreignId('category_id')->nullable()->constrained()->onDelete('set null'); // Foreign key for post category, nullable
             $table->timestamps();
         });
     }

@@ -10,7 +10,7 @@ class Post extends Model
     use HasFactory;
 
     // Define fillable attributes
-    protected $fillable = ['title', 'content', 'slug', 'is_published', 'published_at', 'user_id', 'category_id'];
+    protected $fillable = ['title', 'content'];
 
     // Define relationships if needed
     public function user()

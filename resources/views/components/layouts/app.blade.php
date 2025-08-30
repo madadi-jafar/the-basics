@@ -12,8 +12,8 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/" @class(['current' => request()->is('/')]))>Todos</a></li>
-            <li><a href="/counter" @class(['current' => request()->is('counter')])>Counter</a></li>
+            <li><a href="/" @class(['current' => request()->is('/')]))>Posts</a></li>
+            <li><a href="/posts/create" @class(['current' => request()->is('posts/create')])>Create Post</a></li>
         </ul>
     </nav>
     {{ $slot }}
